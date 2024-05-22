@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="10">
+
+    <!-- RecyclerView covering 70% of the screen -->
+
+    <!-- FragmentContainerView occupying the rest of the screen -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/leave"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_design"
+        android:padding="9dp"
+        android:text="@string/leave_room"
+        android:layout_weight="0.20"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_ui"
+        android:layout_width="match_parent"
+        android:layout_height="415dp"
+        android:layout_margin="9dp"
+        android:layout_weight="8.8"
+        android:background="@drawable/recyler_design" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/user_type_ui"
+        android:name="com.example.interviewrgpt.user_type_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="9dp"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_user_type_fragment" />
+
+
+</LinearLayout>

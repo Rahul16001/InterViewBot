@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "focus-copilot-397914",
+  "private_key_id": "5f0a341a499e2ffeb81d615a7a964493e751298e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD42nkhcVBMQhmW\neFTFNhW06MpCODR/PPIFmfnFuRb7W32sL0Ak2kcrkDvO/x0esewZfNt5CFFjpnSg\naAnh52o/i2YsQ0Lgl36leJWOTdMAR6sqCWyikeMTmXA7+qHrcb1doQ2uaUT3BjqB\nmnIpAVIvEjL0Y0PcdUrE/Q/p6eLAyzXqAhmvE96vx557WUgIZ//6SR6GtvkIsdM2\n1GBtYVi2ZZOvp9VKVoh167z68Iavb7HboCsQc4Gtum2QB4jzMh1DVKARI+ja13bB\nN5TTp7UgHcr7MtPI+6pOiGEXb5EDG01FsrFZNgH+FUEAPPvNfYEJgIjvKCvmOuHA\nepssAf/7AgMBAAECggEAGDVDPKpF7MUusWE5+If5te7suLhi/aWzctwMXNxT4gEq\nc9+SK9jtZ3gmeU0pS10fjJ3aySayqYZTKMTg1pBT2PlPPSsQjGybA1nRoqrrcHGI\nXb8rnueg4WfhxSlCgHbrZvpN1xOig9f1RQ+oigNOOAoF2ZmhIQcVTkhtOIy/ZDsE\nrjHOMyiEBIUEHhy04DQ/zrOvMtKGqgOMTvDNpGFSI5K4qTzbFKu6k2RVek+U/T2P\n55jAXzjeTWgtDjWR64luv0AbWGeCojAZjIg/iLWo7PTNYyX+0NtzAEuiOYM0EU5/\n6hAlNQKCPbUH/q//1vbHl6qar3g34gkKyuVITuBAsQKBgQD8xuldetLfJHQEcewd\nRkV4Yh1FljDm5gwyVvf01qujAK4RyPAqS+hLSIqmR6sDOWOjHaTO+uA4KmK0QXYG\nv8/qAcDx7YuA80KIcqwOQ2CWqPI8pAVm5bK5m4Hjs6oUJ4lf30BEp/dpsR6TanXP\nA7AVwggFZ33krZfUMqoEmKN41QKBgQD8BsEulGjB/E6tX3VYf4o1c/+1PCjaI07G\nLAe14Yvf3Pr8G3JZGN+c3HiVnfJr2AeDpyyk7ROIpu1m+WNuuKt8EckCM90izAht\nMn+VaL6NzaXM0sWWKNKEIY8uuH6CzpBaOUiqibCqHuUn4YlzBTu99AxLw/D6Ab+V\nR5FWFKv9jwKBgFEpwTatwFW7y7C9r5W6wYWk40c7sVoCVbo4KIeqAhRlnH7DaTH7\ni4vYsAQyENwJKk/urcNz1FjUazr7pd0G68h0ZbKIlnmCIkPTpiEySyo09wq3k7B1\nYoysPOmS/7JW+4oYEfe5gvyhzXKCBW/B/GEQGyk5ELhDcPPGjMbLB/o9AoGAPIZ2\nwHP90JCCaJqjONSwYXPxNhoziWevVGJgm6qGCAYu9Hq29HTHxwkfoHblMEcaTuDI\nFPemmEvWecNswLty24H97xx7gA7V+zuEbmJQWQfJSK5Zq100aW0R0NuX7lwjSLe3\nHtWgasqup+w/MTNRjKXeiheNeM0QsI4WdkDSqTsCgYEAlUEgzZ6pe9xUBv8tD+NP\nZy5JQxsG0DC0ysGuLQZ/eiztC4IucH/qON3MJAPVZFRdd6lhxjKZ1P3Tko38DP3Y\n2uxn0Frlcgv+vD3iubsRHg7NcfR/1Mhc1ZlhOw9gIkXKqiwObkBv4jP0rx8+SrEW\n0B2AAEPotDi5PPTNO649nxc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-secret-manager@focus-copilot-397914.iam.gserviceaccount.com",
+  "client_id": "104319444251694140399",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-secret-manager%40focus-copilot-397914.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

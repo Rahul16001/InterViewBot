@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PrepBot</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_reply_here">Enter Your Reply here........</string>
+    <string name="customize_your_bot">Customize Your bot....</string>
+    <string name="enter_profile_type_like_software_engineer_etc">Enter profile type like Software Engineer etc...</string>
+    <string name="enter_your_name">Enter Your Name...</string>
+    <string name="proceed">Proceed</string>
+    <string name="leave_room">Leave Room</string>
+    <string name="hold_to_record">Hold to Record</string>
+    <string name="textmode">Text Mode</string>
+    <string name="audio_mode">Audio Mode</string>
+</resources>

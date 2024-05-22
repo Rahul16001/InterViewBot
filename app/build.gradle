@@ -1,0 +1,68 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.interviewrgpt'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.interviewrgpt"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+                exclude 'META-INF/INDEX.LIST'
+                exclude 'META-INF/DEPENDENCIES'
+            }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //Retfrofit Dependency
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:2.9.0' // ok-http-client
+
+    //Gson dependency
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    //card_view
+    implementation "androidx.cardview:cardview:1.0.0"
+
+    //google-secret-manager
+    implementation 'com.google.cloud:google-cloud-secretmanager:2.23.0'
+
+    //google auhorization
+    implementation 'com.google.auth:google-auth-library-oauth2-http:1.19.0'
+
+    //used by google cloud services to coummunicate
+    implementation 'io.grpc:grpc-okhttp:1.44.1'
+
+
+
+}
